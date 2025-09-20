@@ -1,0 +1,113 @@
+I want to build my personal portfolio website focused on personal branding, with emphasis on my role as Co-Founder and COO of my startup, Hodos (Corporate Travel Expense Management Platform). The website should reflect a clean, professional, and modern design, optimized for clarity and showcasing achievements.
+
+✅ Main Goals:
+
+Showcase my entrepreneurship journey (Hodos).
+
+Highlight my academic background and research internships.
+
+Present projects and achievements in a well-organized way.
+
+Include downloadable CV.
+
+Attach external links to GitHub, LinkedIn, my startup website, and project repos wherever possible.
+
+Display my photo (attached).
+
+Support clear contact options.
+
+🚀 Suggested Sections & Structure:
+1. Hero Section (Top of Page)
+
+Full name: Snehal Pal
+
+Tagline: “Co-Founder & COO at Hodos | AI & Data Researcher | Innovator”
+
+Professional photo (use the one I uploaded).
+
+Call-to-action buttons:
+– View My Work → scroll to projects
+– Contact Me → scroll to contact section
+
+2. About Me
+
+Brief intro (2–3 sentences).
+
+Education:
+IIT Kharagpur, B.Tech in Chemical Engineering (2023–2027)
+
+One-liner about my passion for tech, entrepreneurship, and data-driven solutions.
+
+3. Entrepreneurship – Hodos
+
+Explain Hodos mission: Automating corporate travel expense management.
+
+Mention role as Co-Founder and COO.
+
+Link to live startup site → https://www.hodosindia.com
+.
+
+Key highlights:
+– Built MVP for travel audit automation
+– Collaborated with industry players (Otis, Dassault, Rakuten)
+– Built strategic pricing & security workflows.
+– Investor discussions and declined strategic funding offer.
+
+4. Internships & Research
+
+Research Intern – AI Dept, IIT Kharagpur
+→ Focus on PolSAR classification, achieved 68% accuracy.
+
+Intern – Aalborg University (Denmark)
+→ Built scalable name-matching pipeline for MEHDIE project.
+
+Intern – University of Oulu
+→ Optimized Spiking Neural Networks for chemical reactor performance.
+
+5. Projects
+
+List 3–5 projects with short descriptions and links:
+
+Business Revenue Optimization → GitHub
+
+Automated Book Publication System → GitHub Repo
+
+Flight Delay Prediction System → Link if live demo or GitHub available.
+
+6. Achievements
+
+AIR 7326 in JEE Advanced 2023.
+
+Bronze Medal – Open IIT Supply Chain.
+
+Top 10% academic performance at IIT KGP.
+
+Sub-head – Finance & Economics Club, IIT Kharagpur.
+
+7. Resume
+
+Embedded preview of my CV (use PDF provided).
+
+Download button → PDF link.
+
+8. Contact
+
+Simple contact form (Name, Email, Message).
+
+Email → palsnehal004@gmail.com
+
+LinkedIn → https://www.linkedin.com/in/snehal-pal-4735b4266/
+
+GitHub → https://github.com/2004Snehal
+
+🎯 Additional Requirements:
+
+One-page scroll layout (clean and professional).
+
+Sections clearly separated with smooth scroll navigation.
+
+Make sure all external links open in a new tab.
+
+No tech stack mention in public view.
+
+Make the design mobile-responsive.
