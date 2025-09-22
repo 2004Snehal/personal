@@ -41,6 +41,7 @@ export default function ProjectsSection() {
       title: "Automated Book Publication System", 
       description: "End-to-end automation system for book publishing workflow including manuscript processing, formatting, cover generation, and distribution management. Streamlined the entire publishing pipeline for efficiency and quality.",
       technologies: ["Python", "Automation", "Publishing Workflow", "Document Processing", "API Integration"],
+      githubUrl: "https://github.com/2004Snehal/AutomatedBookPublicationWorkflow",
       youtubeUrl: "https://youtu.be/TUT97ng8cmk",
       category: "Automation"
     }
