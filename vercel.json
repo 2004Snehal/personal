@@ -13,6 +13,7 @@
     }
   ],
   "env": {
-    "NODE_ENV": "production"
+    "NODE_ENV": "production",
+    "SESSION_SECRET": "df7712ebfe5e75433e42218578795dd484285ee8e990b4759ba0e3b9ba8a30c874afbced18c6de42bf05c7c59417bfb05d3a50c8b75e9f1899400980c456656c"
   }
 }
