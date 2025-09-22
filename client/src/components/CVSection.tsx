@@ -6,17 +6,7 @@ export default function CVSection() {
   const openGoogleDriveCV = () => {
     //todo: replace with actual Google Drive link
     console.log('Opening CV from Google Drive');
-     window.open('https://drive.google.com/drive/folders/1NgWxgX4_aqREwa1f92m1Jmgd-SprJUI3?usp=drive_link', '_blank');
-  };
-
-  const downloadCV = () => {
-    //todo: implement actual PDF download
-    console.log('Downloading CV PDF');
-    // Create download link for local PDF
-    const link = document.createElement('a');
-    link.href = '/attached_assets/SnehalPal_Consultant_CV_March_1758043548269.pdf';
-    link.download = 'SnehalPal_CV.pdf';
-    link.click();
+    window.open('https://drive.google.com/drive/folders/1NgWxgX4_aqREwa1f92m1Jmgd-SprJUI3?usp=drive_link', '_blank');
   };
 
   return (
@@ -69,14 +59,6 @@ export default function CVSection() {
                 >
                   <ExternalLink className="h-4 w-4 mr-2" />
                   View on Google Drive
-                </Button>
-                <Button 
-                  variant="outline"
-                  onClick={downloadCV}
-                  className="hover-elevate"
-                  data-testid="button-download-cv"
-                >
-                  <Download className="h-4 w-4" />
                 </Button>
               </div>
             </Card>
