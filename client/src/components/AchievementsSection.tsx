@@ -12,20 +12,7 @@ interface Achievement {
 export default function AchievementsSection() {
   //todo: remove mock functionality - achievements data will come from props
   const achievements: Achievement[] = [
-    {
-      id: "1",
-      title: "JEE Advanced 2023",
-      description: "Secured All India Rank of 7326 among 1.8 lakh candidates in one of India's most competitive engineering entrance exams",
-      metric: "AIR 7326",
-      icon: "trophy"
-    },
-    {
-      id: "3",
-      title: "Leadership Role",
-      description: "Served as Sub-head of Finance and Economics Club at IIT Kharagpur, leading equity research and organizing industry workshops",
-      metric: "Sub-head",
-      icon: "trending"
-    }
+    
   ];
 
   const getIcon = (iconType: string) => {
@@ -85,7 +72,7 @@ export default function AchievementsSection() {
         </div>
 
         {/* Additional stats */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
+        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
             <div className="text-3xl font-bold text-primary mb-2">3+</div>
             <div className="text-muted-foreground">Research Projects</div>
@@ -97,6 +84,10 @@ export default function AchievementsSection() {
           <div>
             <div className="text-3xl font-bold text-primary mb-2">2</div>
             <div className="text-muted-foreground">Internships</div>
+          </div>
+          <div>
+            <div className="text-3xl font-bold text-primary mb-2">2+</div>
+            <div className="text-muted-foreground">Competitive Exams Top 1 Percentile</div>
           </div>
         </div>
       </div>

@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, Play, FileText } from "lucide-react";
 import researchLabImage from "@assets/generated_images/AI_research_lab_photo_5f121141.png";
+import gcReport from "@assets/Data_Analytics_Report.pdf";
 
 interface Project {
   id: string;
@@ -23,7 +24,7 @@ export default function ProjectsSection() {
       title: "Business Revenue Optimization",
       description: "Comprehensive data analytics project for ElectroMart analyzing marketing effectiveness, customer behavior, and revenue optimization. Led market analysis using advanced ML models including XGBoost and LightGBM with SHAP analysis for actionable business insights.",
       technologies: ["Python", "XGBoost", "LightGBM", "SHAP", "Data Analytics", "Business Intelligence"],
-      reportUrl: "#gc-report", // Will link to PDF viewer
+      reportUrl: "#gc-report", // Links to GC Data Analytics Report PDF
       category: "Business Analytics"
     },
     {
@@ -47,8 +48,8 @@ export default function ProjectsSection() {
 
   const openLink = (url: string) => {
     if (url === "#gc-report") {
-      // Scroll to GC report section or open modal
-      console.log('Opening GC Data Analytics Report');
+      // Open the GC report PDF in a new tab
+      window.open(gcReport, '_blank');
       return;
     }
     window.open(url, '_blank');

@@ -4,10 +4,17 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Mail, Linkedin, Github, MapPin, Phone } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useToast } from "@/hooks/use-toast";
 
 export default function ContactSection() {
+  const [calendlyUrl, setCalendlyUrl] = useState("");
+
+  useEffect(() => {
+    const now = new Date();
+    const formattedDate = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
+    setCalendlyUrl(`https://calendly.com/palsnehal004/30min?month=${formattedDate}`);
+  }, []);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -134,14 +141,17 @@ export default function ContactSection() {
             </div>
           </div>
           
-          <Card className="p-8 opacity-50">
-            <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-            <div className="space-y-6">
-              <div className="text-center py-8">
-                <p className="text-muted-foreground">
-                  Contact form is currently disabled. Please reach out via email or social media links above.
-                </p>
-              </div>
+          <Card className="p-8">
+            <h3 className="text-2xl font-semibold mb-6">Schedule a Meeting</h3>
+            <div className="w-full">
+              <iframe
+                src={calendlyUrl}
+                width="100%"
+                height="700px"
+                frameBorder="0"
+                title="Schedule a meeting"
+                data-testid="calendly-embed"
+              ></iframe>
             </div>
           </Card>
         </div>
